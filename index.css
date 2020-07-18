@@ -1,26 +1,55 @@
 body {
     background-color: #f2f2f2;
+    color: #ffffff;
     font-family: Cambria Math, Calibri, Arial;
 }
-h1 {
-    color: #3c5451;
+p {
+    font-size: 6rem;
+    text-align: center;
     transition: color .5s ease-in-out;
 }
 
-.btn {
+input[type="text"] {
+    border: none;
+    border-bottom: .5rem solid #ffffff;
+    margin-top: .5rem;
+    background-color: transparent;
+    line-height: 2.5rem;
+    opacity: .4;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+ul {
+    padding-left: 35%;
+    line-height: 1.5rem;
+    list-style-type: none;
+    color: #292929;
+}
+
+button {
+    border: 0;
+    background: none;
+    color: #ffffff;
     cursor: pointer;
 }
 .clicked {
     color : #c7d4e3;
 }
 
-.form,
-.greetings{
+.form, .greetings {
     display: none;
+    text-align: center;
 }
 
+.list {
+    text-align: center;
+}
 .showing {
     display: block;
+    font-size: 2rem;
 }
 
 @keyframes fadeIn {
