@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 2; //the number of images
+const IMG_NUMBER = 5; //the number of images
 
 function paintImage(imgNumber){
     const image = new Image();
